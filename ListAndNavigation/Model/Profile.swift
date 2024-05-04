@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Profile{
+struct Profile : Equatable {
     var username : String
     var id : Int
     var preferredSeason : Season

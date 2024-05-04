@@ -20,10 +20,12 @@ struct Landmark : Codable , Hashable , Identifiable {
     
     var category: Category
     
-       enum Category: String, CaseIterable, Codable {
+       enum Category: String, CaseIterable, Codable , Identifiable {
            case lakes = "Lakes"
            case rivers = "Rivers"
            case mountains = "Mountains"
+           
+           var id: String { rawValue }
        }
 
         private var imageName: String
