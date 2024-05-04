@@ -10,6 +10,9 @@
 		DF641EE72BE6036700B6B6BA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF641EE62BE6036700B6B6BA /* Profile.swift */; };
 		DF641EE92BE6050B00B6B6BA /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF641EE82BE6050B00B6B6BA /* ProfileSummary.swift */; };
 		DF641EEB2BE60E7500B6B6BA /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF641EEA2BE60E7500B6B6BA /* EditProfile.swift */; };
+		DF641EED2BE649FB00B6B6BA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF641EEC2BE649FB00B6B6BA /* PageViewController.swift */; };
+		DF641EEF2BE6507200B6B6BA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF641EEE2BE6507200B6B6BA /* FeatureCard.swift */; };
+		DF641EF12BE6560700B6B6BA /* Pageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF641EF02BE6560700B6B6BA /* Pageview.swift */; };
 		DFC86FCB2BE4BF5B0029ACA1 /* ListAndNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC86FCA2BE4BF5B0029ACA1 /* ListAndNavigationApp.swift */; };
 		DFC86FCD2BE4BF5B0029ACA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC86FCC2BE4BF5B0029ACA1 /* ContentView.swift */; };
 		DFC86FCF2BE4BF5E0029ACA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC86FCE2BE4BF5E0029ACA1 /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 		DF641EE62BE6036700B6B6BA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		DF641EE82BE6050B00B6B6BA /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		DF641EEA2BE60E7500B6B6BA /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		DF641EEC2BE649FB00B6B6BA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		DF641EEE2BE6507200B6B6BA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		DF641EF02BE6560700B6B6BA /* Pageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pageview.swift; sourceTree = "<group>"; };
 		DFC86FC72BE4BF5B0029ACA1 /* ListAndNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListAndNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC86FCA2BE4BF5B0029ACA1 /* ListAndNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAndNavigationApp.swift; sourceTree = "<group>"; };
 		DFC86FCC2BE4BF5B0029ACA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 				DFC86FF92BE4FF0B0029ACA1 /* CategoryItem.swift */,
 				DF641EE82BE6050B00B6B6BA /* ProfileSummary.swift */,
 				DF641EEA2BE60E7500B6B6BA /* EditProfile.swift */,
+				DF641EEC2BE649FB00B6B6BA /* PageViewController.swift */,
+				DF641EEE2BE6507200B6B6BA /* FeatureCard.swift */,
+				DF641EF02BE6560700B6B6BA /* Pageview.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,11 +224,14 @@
 				DF641EE72BE6036700B6B6BA /* Profile.swift in Sources */,
 				DFC86FCB2BE4BF5B0029ACA1 /* ListAndNavigationApp.swift in Sources */,
 				DFC86FF62BE4FB370029ACA1 /* CategoryHome.swift in Sources */,
+				DF641EED2BE649FB00B6B6BA /* PageViewController.swift in Sources */,
 				DFC86FDC2BE4BFE10029ACA1 /* Landmark.swift in Sources */,
+				DF641EEF2BE6507200B6B6BA /* FeatureCard.swift in Sources */,
 				DFC86FEC2BE4C18E0029ACA1 /* CircleImage.swift in Sources */,
 				DFC86FF22BE4EA760029ACA1 /* FavouriteButton.swift in Sources */,
 				DFC86FFA2BE4FF0B0029ACA1 /* CategoryItem.swift in Sources */,
 				DFC86FE62BE4C0CC0029ACA1 /* LandmarkDetail.swift in Sources */,
+				DF641EF12BE6560700B6B6BA /* Pageview.swift in Sources */,
 				DFC86FE82BE4C0EE0029ACA1 /* LandmarkRow.swift in Sources */,
 				DFC86FF82BE4FEEB0029ACA1 /* CategoryRow.swift in Sources */,
 				DFC86FE42BE4C0A60029ACA1 /* LandmarkList.swift in Sources */,
