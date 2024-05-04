@@ -10,6 +10,7 @@ import Foundation
 
 @Observable class ModelData{
     var landmarks: [Landmark] = load("landmarkData.json")
+    var profile = Profile.default
     
     var categories: [String: [Landmark]] {
            Dictionary(
@@ -20,7 +21,7 @@ import Foundation
     
     var features: [Landmark] {
            landmarks.filter { $0.isFeatured }
-       }
+       } 
 }
 
 

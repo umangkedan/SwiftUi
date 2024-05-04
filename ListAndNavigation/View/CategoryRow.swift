@@ -36,7 +36,6 @@ struct CategoryRow: View {
        }
    }
 
-
    #Preview {
        let landmarks = ModelData().landmarks
        return CategoryRow(
